@@ -10,7 +10,7 @@ class SingleLinkedList {
 		Node(const Type& val, Node* next)
 			: value(val)
 			, next_node(next)
-			{
+		{
 		}
 		
 		Type value;
@@ -34,7 +34,7 @@ public:
 		// Конвертирующий конструктор итератора из указателя на узел списка
 		explicit BasicIterator(Node* node)
 			: node_(node)
-			{
+		{
 		}
 		
 	public:
@@ -59,7 +59,7 @@ public:
 		// При ValueType, совпадающем с const Type, играет роль конвертирующего конструктора
 		BasicIterator(const BasicIterator<Type>& other) noexcept
 			: node_(other.node_)
-			{
+		{
 		}
 		
 		// Чтобы компилятор не выдавал предупреждение об отсутствии оператора = при наличии
