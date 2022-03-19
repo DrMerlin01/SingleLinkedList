@@ -13,4 +13,3 @@ A singly linked list. I wrote a sequential iterator (Forward iterator) for it. A
   3. Cmake 3.21.2 (minimal 3.10)
   4. Forward iterator
 # Future plans
-  1. Add tests for all functionality
